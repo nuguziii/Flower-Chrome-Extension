@@ -53,6 +53,24 @@ const FlowerAPI = {
     return response.data.keywords;
   },
 
+  getRecommendedTags: async () => {
+    let url = "https://nhe02otv71.execute-api.ap-northeast-2.amazonaws.com/beta/";
+    let method = "post";
+    let data = "hello";
+
+    const request = {
+      url: url,
+      method: method,
+      data: JSON.stringify(data)
+    };
+  
+    let response = await axios(request);
+
+    console.log(response);
+
+    return response;
+  },
+
   getMemos: async requestUrl => {
     if (await FlowerAPI.checkLoginStatus()) {
       const info = await FlowerAPI.getUserInfo();

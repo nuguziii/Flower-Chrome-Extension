@@ -30,6 +30,7 @@ import Avatar from "@material-ui/core/Avatar";
 
 import LogoutButton from "./Components/LogoutButton";
 import LoginButton from "./Components/LoginButton";
+import NLPTestButton from "./Components/NLPTestButton";
 import FlowerAPI from "./apis/FlowerAPI";
 
 const drawerWidth = 180;
@@ -197,6 +198,7 @@ export default function NewTab() {
             </Paper>
             {loginState ? <Avatar className={classes.avatar}>H</Avatar> : ""}
             {loginState ? <LogoutButton /> : <LoginButton />}
+            <NLPTestButton />
           </Toolbar>
         </AppBar>
 
