@@ -4,7 +4,7 @@ import FlowerAPI from "../apis/FlowerAPI";
 
 export default function NLPTestButton() {
     return (
-      <Button variant="outlined" onClick={FlowerAPI.getRecommendedTags}>
+      <Button variant="outlined" onClick={FlowerAPI.getTags}>
         NLPTest
       </Button>
     );
