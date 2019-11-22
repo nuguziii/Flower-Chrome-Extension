@@ -56,6 +56,10 @@ while 1:
             QueueUrl=queue_url,
             ReceiptHandle=receipt_handle
         )
-        print('Received and deleted message: %s' % body["url"])
+        print('Received and deleted message: [%s] %s' % (body["title"], body["url"]))
+        print('Tag Result: ', tags)
     except:
-        pass
+        sqs.delete_message(
+            QueueUrl=queue_url,
+            ReceiptHandle=receipt_handle
+        )
