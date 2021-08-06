@@ -1,6 +1,6 @@
 # Flower Chrome Extension
 
-This is an implementation of Flower: Web Memo Service on Javascript, Python and React.
+This is an implementation of "Flower: Web Memo Service" on Javascript, Python and React.
 The Flower service is memo management chrome extension service where users can save and share memos.
 See details in [here](https://www.youtube.com/watch?v=hMoJh5K7SQo)
 
