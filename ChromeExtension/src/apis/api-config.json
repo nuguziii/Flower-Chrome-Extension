@@ -1,0 +1,8 @@
+{
+    "baseUrl":"https://2p8ue30rj6.execute-api.ap-northeast-2.amazonaws.com/dev",
+    "userApiUrl" : "https://2p8ue30rj6.execute-api.ap-northeast-2.amazonaws.com/dev/users",
+    "memoApiUrl" : "https://2p8ue30rj6.execute-api.ap-northeast-2.amazonaws.com/dev/memos",
+    "projectApiUrl" : "https://2p8ue30rj6.execute-api.ap-northeast-2.amazonaws.com/dev/projects",
+    "tagApiUrl" : "https://2p8ue30rj6.execute-api.ap-northeast-2.amazonaws.com/dev/tags"
+    
+}
